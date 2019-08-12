@@ -2,6 +2,15 @@ import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
+/*
+1. Wyświetl w historii współrzędne dla każdego z ruchów w formacie (kolumna, wiersz).
+2. Zastosuj pogrubienie na aktualnie wyświetlanym elemencie listy ruchów.
+3. Przepisz komponent Board w taki sposób, aby wyświetlić wszystkie pola za pomocą dwóch pętli, zamiast jawnie je podawać w kodzie.
+4. Dodaj przycisk, który będzie na zmianę sortował listę ruchów rosnąco i malejąco.
+5. Gdy któryś z graczy wygra, podświetl trzy pola, które zapewniły zwycięstwo.
+6. Jeśli gra zakończy się z powodu braku możliwych ruchów, wyświetl odpowiednią wiadomość.
+*/
+
 function Square(props) {
     return (
         <button 
